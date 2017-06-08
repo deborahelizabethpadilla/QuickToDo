@@ -52,6 +52,7 @@ class TableViewController: UITableViewController {
 
         // Configure the cell...
         
+        cell.textLabel?.font = UIFont(name: "Noteworthy Bold", size: 20)
         cell.textLabel?.text = items[indexPath.row]
         
         return cell
