@@ -12,7 +12,7 @@ class TableViewController: UITableViewController {
     
     //Variables
     
-    var items:NSMutableArray = []
+    var items:[String] = []
     
     //Outlets
 
@@ -29,7 +29,7 @@ class TableViewController: UITableViewController {
         
         let itemsObject = UserDefaults.standard.object(forKey: "items")
         
-        if let tempItems = itemsObject as? NSArray {
+        if let tempItems = itemsObject as? [String] {
             
             items = tempItems as! NSMutableArray
             
@@ -53,16 +53,21 @@ class TableViewController: UITableViewController {
 
         // Configure the cell...
         
-        var cellLabel = ""
-        
-        if let tempLabel = items[indexPath.row] as? String {
-            
-            cellLabel = tempLabel
-        }
-        
-        cell.textLabel?.text = cellLabel
+        cell.textLabel?.text = items[indexPath.row]
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        if editingStyle = UITableViewCellEditingStyle.delete {
+            
+            items.remove(at: indexPath.row)
+            
+            table.reloadData()
+            
+            UserDefaults.standard.set(items, forKey: "items")
+        }
     }
 
 } // End Class
