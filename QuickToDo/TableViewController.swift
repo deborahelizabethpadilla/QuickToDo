@@ -9,19 +9,31 @@
 import UIKit
 
 class TableViewController: UITableViewController {
+    
+    //Variables
+    
+    var items:NSMutableArray = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
-    }
-
+        let itemsObject = UserDefaults.standard.object(forKey: "items")
+        
+        if let tempItems = itemsObject as? NSArray {
+            
+            items = tempItems as! NSMutableArray
+            
+        }
+    
+}
 
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 1
+        
+        return items.count
     }
 
     
@@ -31,8 +43,15 @@ class TableViewController: UITableViewController {
 
         // Configure the cell...
         
-        cell.textLabel?.text = "Test..."
-
+        var cellLabel = ""
+        
+        if let tempLabel = items[indexPath.row] as? String {
+            
+            cellLabel = tempLabel
+        }
+        
+        cell.textLabel?.text = cellLabel
+        
         return cell
     }
 
