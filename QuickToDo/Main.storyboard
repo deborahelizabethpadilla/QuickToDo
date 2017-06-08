@@ -9,11 +9,6 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Architex.ttf">
-            <string>Architext</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--QuickToDo-->
         <scene sceneID="W80-a7-Z9i">
@@ -28,36 +23,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add An Item..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-md-0dN">
-                                <rect key="frame" x="104.5" y="83" width="165.5" height="45.5"/>
-                                <fontDescription key="fontDescription" name="Architext" family="Architext" pointSize="40"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="68" y="83" width="239" height="64"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="40"/>
+                                <color key="textColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E.g., Get Milk..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sua-Tq-Ai2">
-                                <rect key="frame" x="16" y="180" width="343" height="30"/>
+                                <rect key="frame" x="16" y="198.5" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTh-Qx-g7O">
-                                <rect key="frame" x="156" y="262" width="63" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTh-Qx-g7O">
+                                <rect key="frame" x="165" y="262" width="45" height="52"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                 <state key="normal" title="Add">
-                                    <color key="titleColor" red="0.111818932" green="0.11183650050000001" blue="0.1118125319" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="addAction:" destination="2GR-w6-vG2" eventType="touchUpInside" id="2g1-a6-y00"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.19376453757286072" green="0.50850099325180054" blue="0.85232251882553101" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Sua-Tq-Ai2" firstAttribute="top" secondItem="g8q-md-0dN" secondAttribute="bottom" constant="51.5" id="Bd2-U2-vTL"/>
                             <constraint firstItem="g8q-md-0dN" firstAttribute="top" secondItem="ONF-wY-6nv" secondAttribute="bottom" constant="63" id="Dfi-yz-bmA"/>
+                            <constraint firstItem="eTh-Qx-g7O" firstAttribute="top" secondItem="Sua-Tq-Ai2" secondAttribute="bottom" constant="33.5" id="Lbd-k4-H1k"/>
+                            <constraint firstItem="eTh-Qx-g7O" firstAttribute="centerX" secondItem="A6g-DC-7aa" secondAttribute="centerX" id="bZd-bf-QYR"/>
                             <constraint firstItem="g8q-md-0dN" firstAttribute="centerX" secondItem="A6g-DC-7aa" secondAttribute="centerX" id="ibF-a5-yUu"/>
                             <constraint firstItem="Sua-Tq-Ai2" firstAttribute="trailing" secondItem="A6g-DC-7aa" secondAttribute="trailingMargin" id="ufq-O9-a1U"/>
                             <constraint firstItem="Sua-Tq-Ai2" firstAttribute="leading" secondItem="A6g-DC-7aa" secondAttribute="leadingMargin" id="yeC-aM-VlR"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="QuickToDo" id="hg3-1l-ktb"/>
+                    <connections>
+                        <outlet property="itemField" destination="Sua-Tq-Ai2" id="6BU-NN-zp9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gpe-eV-lTA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

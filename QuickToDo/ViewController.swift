@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     //Outlets
+    
+    @IBOutlet var itemField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,8 @@ class ViewController: UIViewController {
     
     //Actions
     
+    @IBAction func addAction(_ sender: Any) {
+    }
     
 
 }
