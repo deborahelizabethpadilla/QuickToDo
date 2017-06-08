@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     //Outlets
     
@@ -17,7 +17,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        //Delegate For Text Field
+        
+        self.itemField.delegate = self
+    
+        //Close On Tap
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        
+        view.addGestureRecognizer(tap)
     }
     
     //Actions
@@ -49,6 +57,21 @@ class ViewController: UIViewController {
         
         UserDefaults.standard.set(items, forKey: "items")
         itemField.text = ""
+    }
+    
+    //Close Keyboard With Return
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        self.view.endEditing(true)
+        return false
+    }
+    
+    //Close Keyboard With Tap
+    
+    func dismissKeyboard() {
+        
+        view.endEditing(true)
     }
 
 } // End Class

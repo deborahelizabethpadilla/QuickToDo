@@ -16,9 +16,6 @@
 		50BCCE791EE9F7E3005060CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE781EE9F7E3005060CD /* Main.storyboard */; };
 		50BCCE7A1EE9F7E3005060CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE781EE9F7E3005060CD /* Main.storyboard */; };
 		50BCCE7B1EE9F7E3005060CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE781EE9F7E3005060CD /* Main.storyboard */; };
-		50BCCE7D1EE9F8C6005060CD /* Architex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE7C1EE9F8C6005060CD /* Architex.ttf */; };
-		50BCCE7E1EE9F8C6005060CD /* Architex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE7C1EE9F8C6005060CD /* Architex.ttf */; };
-		50BCCE7F1EE9F8C6005060CD /* Architex.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE7C1EE9F8C6005060CD /* Architex.ttf */; };
 		50C698481EE88E1D0017B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C698471EE88E1D0017B654 /* AppDelegate.swift */; };
 		50C698511EE88E290017B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C698501EE88E290017B654 /* Assets.xcassets */; };
 		50C698541EE88E290017B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C698521EE88E290017B654 /* LaunchScreen.storyboard */; };
@@ -47,7 +44,6 @@
 		50BCCE6C1EE9E6D8005060CD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		50BCCE701EE9F761005060CD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50BCCE781EE9F7E3005060CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		50BCCE7C1EE9F8C6005060CD /* Architex.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Architex.ttf; sourceTree = "<group>"; };
 		50C698441EE88E1C0017B654 /* QuickToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C698471EE88E1D0017B654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C698501EE88E290017B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -116,7 +112,6 @@
 				50C698551EE88E2A0017B654 /* Info.plist */,
 				50BCCE701EE9F761005060CD /* ViewController.swift */,
 				50BCCE781EE9F7E3005060CD /* Main.storyboard */,
-				50BCCE7C1EE9F8C6005060CD /* Architex.ttf */,
 			);
 			path = QuickToDo;
 			sourceTree = "<group>";
@@ -249,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BCCE7D1EE9F8C6005060CD /* Architex.ttf in Resources */,
 				50BCCE791EE9F7E3005060CD /* Main.storyboard in Resources */,
 				50C698541EE88E290017B654 /* LaunchScreen.storyboard in Resources */,
 				50C698511EE88E290017B654 /* Assets.xcassets in Resources */,
@@ -260,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BCCE7E1EE9F8C6005060CD /* Architex.ttf in Resources */,
 				50BCCE7A1EE9F7E3005060CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +262,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BCCE7F1EE9F8C6005060CD /* Architex.ttf in Resources */,
 				50BCCE7B1EE9F7E3005060CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
