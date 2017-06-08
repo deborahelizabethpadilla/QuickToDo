@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="X5V-fC-Wpe">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -83,7 +83,7 @@
             </objects>
             <point key="canvasLocation" x="-694" y="-134"/>
         </scene>
-        <!--Item-->
+        <!--My List-->
         <scene sceneID="LeR-CQ-Bpx">
             <objects>
                 <tableViewController id="wfN-OK-Miu" customClass="TableViewController" customModule="QuickToDo" customModuleProvider="target" sceneMemberID="viewController">
@@ -96,7 +96,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Van-6j-Xy0" id="9ZC-qp-9UG">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -106,7 +106,10 @@
                             <outlet property="delegate" destination="wfN-OK-Miu" id="R60-ot-eUp"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="UGW-B7-Tvb"/>
+                    <tabBarItem key="tabBarItem" title="My List" id="UGW-B7-Tvb"/>
+                    <connections>
+                        <outlet property="table" destination="e5w-Jb-u3b" id="Tzv-zT-15w"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iyb-ar-OwA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

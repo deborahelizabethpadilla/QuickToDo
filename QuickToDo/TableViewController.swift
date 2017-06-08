@@ -13,10 +13,19 @@ class TableViewController: UITableViewController {
     //Variables
     
     var items:NSMutableArray = []
+    
+    //Outlets
 
+    @IBOutlet var table: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         
         let itemsObject = UserDefaults.standard.object(forKey: "items")
         
@@ -25,8 +34,9 @@ class TableViewController: UITableViewController {
             items = tempItems as! NSMutableArray
             
         }
-    
-}
+        
+        table.reloadData()
+    }
 
     // MARK: - Table view data source
 

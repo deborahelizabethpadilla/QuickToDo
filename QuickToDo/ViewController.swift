@@ -23,7 +23,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
         //Close On Tap
         
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
         
         view.addGestureRecognizer(tap)
     }
@@ -42,13 +42,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         let itemsObject = UserDefaults.standard.object(forKey: "items")
         
-        var items:NSMutableArray
+        var items:[String]
         
-        if let tempItems = itemsObject as? NSArray {
+        if let tempItems = itemsObject as? [String] {
             
-            items = tempItems as! NSMutableArray
+            items = tempItems
             
-            items.addingObjects(from: [itemField.text!])
+            items.append(itemField.text!)
             
         } else {
             
