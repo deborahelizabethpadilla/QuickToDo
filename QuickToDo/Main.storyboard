@@ -101,8 +101,8 @@
                                     <action selector="addAction:" destination="2GR-w6-vG2" eventType="touchUpInside" id="2g1-a6-y00"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="groceries.png" translatesAutoresizingMaskIntoConstraints="NO" id="bIf-tW-whh">
-                                <rect key="frame" x="121" y="392" width="172" height="167"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="checked.png" translatesAutoresizingMaskIntoConstraints="NO" id="bIf-tW-whh">
+                                <rect key="frame" x="144" y="444" width="127" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -190,7 +190,7 @@
     <resources>
         <image name="add.png" width="24" height="24"/>
         <image name="alarm-clock.png" width="24" height="24"/>
-        <image name="groceries.png" width="64" height="64"/>
+        <image name="checked.png" width="32" height="32"/>
         <image name="list.png" width="24" height="24"/>
     </resources>
 </document>

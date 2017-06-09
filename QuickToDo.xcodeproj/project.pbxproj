@@ -31,9 +31,9 @@
 		50BCCE951EEB2F42005060CD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE941EEB2F42005060CD /* TabBarController.swift */; };
 		50BCCE961EEB2F42005060CD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE941EEB2F42005060CD /* TabBarController.swift */; };
 		50BCCE971EEB2F42005060CD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE941EEB2F42005060CD /* TabBarController.swift */; };
-		50BCCEA11EEB312A005060CD /* groceries.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCEA01EEB312A005060CD /* groceries.png */; };
-		50BCCEA21EEB312A005060CD /* groceries.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCEA01EEB312A005060CD /* groceries.png */; };
-		50BCCEA31EEB312A005060CD /* groceries.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCEA01EEB312A005060CD /* groceries.png */; };
+		50BCCEA51EEB3427005060CD /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCEA41EEB3427005060CD /* checked.png */; };
+		50BCCEA61EEB3427005060CD /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCEA41EEB3427005060CD /* checked.png */; };
+		50BCCEA71EEB3427005060CD /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCEA41EEB3427005060CD /* checked.png */; };
 		50C698481EE88E1D0017B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C698471EE88E1D0017B654 /* AppDelegate.swift */; };
 		50C698511EE88E290017B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C698501EE88E290017B654 /* Assets.xcassets */; };
 		50C698541EE88E290017B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C698521EE88E290017B654 /* LaunchScreen.storyboard */; };
@@ -67,7 +67,7 @@
 		50BCCE8C1EEB1F56005060CD /* alarm-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alarm-clock.png"; path = "../alarm-clock.png"; sourceTree = "<group>"; };
 		50BCCE901EEB2313005060CD /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		50BCCE941EEB2F42005060CD /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		50BCCEA01EEB312A005060CD /* groceries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = groceries.png; sourceTree = "<group>"; };
+		50BCCEA41EEB3427005060CD /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
 		50C698441EE88E1C0017B654 /* QuickToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C698471EE88E1D0017B654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C698501EE88E290017B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,9 +137,9 @@
 				50BCCE701EE9F761005060CD /* ViewController.swift */,
 				50BCCE781EE9F7E3005060CD /* Main.storyboard */,
 				50BCCE801EEA3C9C005060CD /* list.png */,
-				50BCCEA01EEB312A005060CD /* groceries.png */,
 				50BCCE841EEA3CE6005060CD /* add.png */,
 				50BCCE8C1EEB1F56005060CD /* alarm-clock.png */,
+				50BCCEA41EEB3427005060CD /* checked.png */,
 				50BCCE901EEB2313005060CD /* TimerViewController.swift */,
 				50BCCE941EEB2F42005060CD /* TabBarController.swift */,
 			);
@@ -274,11 +274,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50BCCEA11EEB312A005060CD /* groceries.png in Resources */,
 				50BCCE791EE9F7E3005060CD /* Main.storyboard in Resources */,
 				50C698541EE88E290017B654 /* LaunchScreen.storyboard in Resources */,
 				50C698511EE88E290017B654 /* Assets.xcassets in Resources */,
 				50BCCE851EEA3CE6005060CD /* add.png in Resources */,
+				50BCCEA51EEB3427005060CD /* checked.png in Resources */,
 				50BCCE8D1EEB1F56005060CD /* alarm-clock.png in Resources */,
 				50BCCE811EEA3C9D005060CD /* list.png in Resources */,
 			);
@@ -288,8 +288,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BCCEA61EEB3427005060CD /* checked.png in Resources */,
 				50BCCE8E1EEB1F56005060CD /* alarm-clock.png in Resources */,
-				50BCCEA21EEB312A005060CD /* groceries.png in Resources */,
 				50BCCE861EEA3CE6005060CD /* add.png in Resources */,
 				50BCCE7A1EE9F7E3005060CD /* Main.storyboard in Resources */,
 				50BCCE821EEA3C9D005060CD /* list.png in Resources */,
@@ -300,8 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BCCEA71EEB3427005060CD /* checked.png in Resources */,
 				50BCCE8F1EEB1F56005060CD /* alarm-clock.png in Resources */,
-				50BCCEA31EEB312A005060CD /* groceries.png in Resources */,
 				50BCCE871EEA3CE6005060CD /* add.png in Resources */,
 				50BCCE7B1EE9F7E3005060CD /* Main.storyboard in Resources */,
 				50BCCE831EEA3C9D005060CD /* list.png in Resources */,

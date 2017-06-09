@@ -12,8 +12,8 @@ class TimerViewController: UIViewController {
     
     //Variables
     
+    var time = 0
     var timer = Timer()
-    var timeLeft = 600
     
     //Outlets
 
@@ -31,34 +31,20 @@ class TimerViewController: UIViewController {
     @IBAction func stopButton(_ sender: Any) {
         
         timer.invalidate()
-        let seconds = 600
-        timerLabel.text = timeString(time: TimeInterval(seconds))
+        time = 0
+        
     }
     
     @IBAction func startButton(_ sender: Any) {
         
-        timeLeft = 600
-        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(TimerViewController.timerRunning), userInfo: nil, repeats: true)
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(TimerViewController.action), userInfo: nil, repeats: true)
     }
     
-    func timerRunning() {
+    func action() {
         
-        timeLeft -= 1
-        timerLabel.text = "\(timeLeft)"
-        
-        if timeLeft == 0 {
-            
-            timer.invalidate()
-            timerLabel.text = "Times Up!"
-        }
+        time += 1
+        timerLabel.text = String(time)
     }
     
-    func timeString(time:TimeInterval) -> String {
-        
-        let minutes = Int(time) / 60 % 60
-        let seconds = Int(time) % 60
-        
-        return String(format:"%02i:%02i:%02i", minutes, seconds)
-    }
-   
-}
+    
+} // End Class
