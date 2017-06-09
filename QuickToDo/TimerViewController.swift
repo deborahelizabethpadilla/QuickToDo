@@ -44,7 +44,7 @@ class TimerViewController: UIViewController {
     func timerRunning() {
         
         timeLeft -= 1
-        timerLabel.text = "Time Left: \(timeLeft)"
+        timerLabel.text = "\(timeLeft)"
         
         if timeLeft == 0 {
             
