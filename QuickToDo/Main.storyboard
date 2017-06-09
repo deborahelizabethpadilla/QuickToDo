@@ -40,11 +40,13 @@
                                 <items>
                                     <navigationItem id="A26-px-gou">
                                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="knL-Ai-lnD">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <action selector="stopButton:" destination="OV3-SD-5av" id="RMG-cO-nr9"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="play" id="NCd-yT-AXI">
+                                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
                                                 <action selector="startButton:" destination="OV3-SD-5av" id="djb-23-sGB"/>
                                             </connections>
