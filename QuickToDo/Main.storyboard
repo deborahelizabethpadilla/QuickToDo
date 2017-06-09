@@ -80,20 +80,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add An Item.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-md-0dN">
-                                <rect key="frame" x="110.66666666666669" y="83" width="193" height="42"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="30"/>
+                                <rect key="frame" x="121" y="83" width="172.33333333333331" height="48"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="30"/>
                                 <color key="textColor" red="0.52106726169999995" green="0.24050712590000001" blue="0.68248951440000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E.g., Get Milk..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sua-Tq-Ai2">
-                                <rect key="frame" x="20" y="176.66666666666666" width="374" height="32"/>
+                                <rect key="frame" x="20" y="182.66666666666666" width="374" height="32"/>
                                 <color key="textColor" red="0.111818932" green="0.11183650050000001" blue="0.1118125319" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTh-Qx-g7O">
-                                <rect key="frame" x="183" y="242" width="48" height="47"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="25"/>
+                                <rect key="frame" x="184.66666666666666" y="248" width="45" height="52"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                 <state key="normal" title="Add">
                                     <color key="titleColor" red="0.52106726169999995" green="0.24050712590000001" blue="0.68248951440000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -101,6 +101,10 @@
                                     <action selector="addAction:" destination="2GR-w6-vG2" eventType="touchUpInside" id="2g1-a6-y00"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="groceries.png" translatesAutoresizingMaskIntoConstraints="NO" id="bIf-tW-whh">
+                                <rect key="frame" x="121" y="392" width="172" height="167"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -120,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gpe-eV-lTA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="256.80000000000001" y="171.36431784107947"/>
+            <point key="canvasLocation" x="256.52173913043481" y="171.19565217391306"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="AOd-Bq-l1W">
@@ -186,6 +190,7 @@
     <resources>
         <image name="add.png" width="24" height="24"/>
         <image name="alarm-clock.png" width="24" height="24"/>
+        <image name="groceries.png" width="64" height="64"/>
         <image name="list.png" width="24" height="24"/>
     </resources>
 </document>
