@@ -23,7 +23,7 @@ class TableViewController: UITableViewController {
         
         //Background Color
         
-        self.tableView.backgroundColor = UIColor.yellow
+        self.tableView.backgroundColor = UIColor.white
     }
     
     override func viewDidAppear(_ animated: Bool) {
