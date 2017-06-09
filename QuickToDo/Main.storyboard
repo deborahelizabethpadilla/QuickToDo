@@ -25,7 +25,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add An Item..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-md-0dN">
                                 <rect key="frame" x="68" y="83" width="239" height="64"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="40"/>
-                                <color key="textColor" red="0.90823972230000005" green="0.92638683320000004" blue="0.93171715740000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.111818932" green="0.11183650050000001" blue="0.1118125319" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E.g., Get Milk..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sua-Tq-Ai2">
@@ -38,14 +38,14 @@
                                 <rect key="frame" x="165" y="262" width="45" height="52"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="25"/>
                                 <state key="normal" title="Add">
-                                    <color key="titleColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.111818932" green="0.11183650050000001" blue="0.1118125319" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="addAction:" destination="2GR-w6-vG2" eventType="touchUpInside" id="2g1-a6-y00"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.19376453757286072" green="0.50850099325180054" blue="0.85232251882553101" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.98624199628829956" green="0.7796865701675415" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Sua-Tq-Ai2" firstAttribute="top" secondItem="g8q-md-0dN" secondAttribute="bottom" constant="51.5" id="Bd2-U2-vTL"/>
                             <constraint firstItem="g8q-md-0dN" firstAttribute="top" secondItem="ONF-wY-6nv" secondAttribute="bottom" constant="63" id="Dfi-yz-bmA"/>
@@ -56,7 +56,7 @@
                             <constraint firstItem="Sua-Tq-Ai2" firstAttribute="leading" secondItem="A6g-DC-7aa" secondAttribute="leadingMargin" id="yeC-aM-VlR"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="QuickToDo" id="hg3-1l-ktb"/>
+                    <tabBarItem key="tabBarItem" title="QuickToDo" image="add.png" id="hg3-1l-ktb"/>
                     <connections>
                         <outlet property="itemField" destination="Sua-Tq-Ai2" id="6BU-NN-zp9"/>
                     </connections>
@@ -91,14 +91,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.98624199629999998" green="0.77968657019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Van-6j-Xy0">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Van-6j-Xy0" id="9ZC-qp-9UG">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.98624199629999998" green="0.77968657019999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -106,7 +108,7 @@
                             <outlet property="delegate" destination="wfN-OK-Miu" id="R60-ot-eUp"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="My List" id="UGW-B7-Tvb"/>
+                    <tabBarItem key="tabBarItem" title="My List" image="list.png" id="UGW-B7-Tvb"/>
                     <connections>
                         <outlet property="table" destination="e5w-Jb-u3b" id="Tzv-zT-15w"/>
                     </connections>
@@ -116,4 +118,8 @@
             <point key="canvasLocation" x="257" y="-555"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="add.png" width="24" height="24"/>
+        <image name="list.png" width="24" height="24"/>
+    </resources>
 </document>

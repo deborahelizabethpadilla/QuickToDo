@@ -16,6 +16,12 @@
 		50BCCE791EE9F7E3005060CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE781EE9F7E3005060CD /* Main.storyboard */; };
 		50BCCE7A1EE9F7E3005060CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE781EE9F7E3005060CD /* Main.storyboard */; };
 		50BCCE7B1EE9F7E3005060CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE781EE9F7E3005060CD /* Main.storyboard */; };
+		50BCCE811EEA3C9D005060CD /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE801EEA3C9C005060CD /* list.png */; };
+		50BCCE821EEA3C9D005060CD /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE801EEA3C9C005060CD /* list.png */; };
+		50BCCE831EEA3C9D005060CD /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE801EEA3C9C005060CD /* list.png */; };
+		50BCCE851EEA3CE6005060CD /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE841EEA3CE6005060CD /* add.png */; };
+		50BCCE861EEA3CE6005060CD /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE841EEA3CE6005060CD /* add.png */; };
+		50BCCE871EEA3CE6005060CD /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 50BCCE841EEA3CE6005060CD /* add.png */; };
 		50C698481EE88E1D0017B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C698471EE88E1D0017B654 /* AppDelegate.swift */; };
 		50C698511EE88E290017B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C698501EE88E290017B654 /* Assets.xcassets */; };
 		50C698541EE88E290017B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C698521EE88E290017B654 /* LaunchScreen.storyboard */; };
@@ -44,6 +50,8 @@
 		50BCCE6C1EE9E6D8005060CD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		50BCCE701EE9F761005060CD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50BCCE781EE9F7E3005060CD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		50BCCE801EEA3C9C005060CD /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		50BCCE841EEA3CE6005060CD /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		50C698441EE88E1C0017B654 /* QuickToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C698471EE88E1D0017B654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C698501EE88E290017B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -112,6 +120,8 @@
 				50C698551EE88E2A0017B654 /* Info.plist */,
 				50BCCE701EE9F761005060CD /* ViewController.swift */,
 				50BCCE781EE9F7E3005060CD /* Main.storyboard */,
+				50BCCE801EEA3C9C005060CD /* list.png */,
+				50BCCE841EEA3CE6005060CD /* add.png */,
 			);
 			path = QuickToDo;
 			sourceTree = "<group>";
@@ -247,6 +257,8 @@
 				50BCCE791EE9F7E3005060CD /* Main.storyboard in Resources */,
 				50C698541EE88E290017B654 /* LaunchScreen.storyboard in Resources */,
 				50C698511EE88E290017B654 /* Assets.xcassets in Resources */,
+				50BCCE851EEA3CE6005060CD /* add.png in Resources */,
+				50BCCE811EEA3C9D005060CD /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BCCE861EEA3CE6005060CD /* add.png in Resources */,
 				50BCCE7A1EE9F7E3005060CD /* Main.storyboard in Resources */,
+				50BCCE821EEA3C9D005060CD /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BCCE871EEA3CE6005060CD /* add.png in Resources */,
 				50BCCE7B1EE9F7E3005060CD /* Main.storyboard in Resources */,
+				50BCCE831EEA3C9D005060CD /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
