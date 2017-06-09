@@ -28,8 +28,16 @@
                                 <color key="backgroundColor" red="0.52106726169586182" green="0.24050712585449219" blue="0.68248951435089111" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem id="A26-px-gou">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="knL-Ai-lnD"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="NCd-yT-AXI"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="stop" id="knL-Ai-lnD">
+                                            <connections>
+                                                <action selector="stopButton:" destination="OV3-SD-5av" id="RMG-cO-nr9"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="NCd-yT-AXI">
+                                            <connections>
+                                                <action selector="startButton:" destination="OV3-SD-5av" id="djb-23-sGB"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -51,6 +59,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Timer" image="alarm-clock.png" id="X2F-3A-t0v"/>
+                    <connections>
+                        <outlet property="timerLabel" destination="vFb-OI-3ZD" id="Pzo-xr-Lfc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cq8-cI-Q7r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -152,7 +163,7 @@
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Van-6j-Xy0" id="9ZC-qp-9UG">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
