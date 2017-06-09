@@ -13,7 +13,7 @@
         <!--Timer-->
         <scene sceneID="QmK-Fg-N9p">
             <objects>
-                <viewController id="OV3-SD-5av" sceneMemberID="viewController">
+                <viewController id="OV3-SD-5av" customClass="TimerViewController" customModule="QuickToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cQR-sb-c3C"/>
                         <viewControllerLayoutGuide type="bottom" id="kLG-sP-sRK"/>
@@ -69,19 +69,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add An Item.." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g8q-md-0dN">
-                                <rect key="frame" x="78.666666666666686" y="83" width="257" height="56"/>
-                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="40"/>
+                                <rect key="frame" x="110.66666666666669" y="83" width="193" height="42"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="30"/>
                                 <color key="textColor" red="0.52106726169999995" green="0.24050712590000001" blue="0.68248951440000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E.g., Get Milk..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sua-Tq-Ai2">
-                                <rect key="frame" x="20" y="190.66666666666666" width="374" height="32"/>
+                                <rect key="frame" x="20" y="176.66666666666666" width="374" height="32"/>
                                 <color key="textColor" red="0.111818932" green="0.11183650050000001" blue="0.1118125319" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTh-Qx-g7O">
-                                <rect key="frame" x="183" y="256" width="48" height="47"/>
+                                <rect key="frame" x="183" y="242" width="48" height="47"/>
                                 <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="25"/>
                                 <state key="normal" title="Add">
                                     <color key="titleColor" red="0.52106726169999995" green="0.24050712590000001" blue="0.68248951440000005" alpha="1" colorSpace="calibratedRGB"/>
