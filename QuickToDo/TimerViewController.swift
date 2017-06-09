@@ -32,7 +32,7 @@ class TimerViewController: UIViewController {
         
         timer.invalidate()
         time = 0
-        timerLabel.text = ["0"]
+        timerLabel.text = "0"
         
     }
     
