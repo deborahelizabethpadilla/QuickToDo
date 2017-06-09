@@ -47,7 +47,7 @@
                                     <constraint firstAttribute="height" constant="312" id="BQd-LD-AIf"/>
                                     <constraint firstAttribute="width" constant="343" id="ffh-D5-7wl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="50"/>
+                                <fontDescription key="fontDescription" name="PingFangHK-Semibold" family="PingFang HK" pointSize="30"/>
                                 <color key="textColor" red="0.52106726169999995" green="0.24050712590000001" blue="0.68248951440000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -125,7 +125,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="AOd-Bq-l1W">
             <objects>
-                <tabBarController id="X5V-fC-Wpe" sceneMemberID="viewController">
+                <tabBarController id="X5V-fC-Wpe" customClass="TabBarController" customModule="QuickToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="cad-DO-a0o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>

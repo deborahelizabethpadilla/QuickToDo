@@ -28,6 +28,9 @@
 		50BCCE911EEB2313005060CD /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE901EEB2313005060CD /* TimerViewController.swift */; };
 		50BCCE921EEB2313005060CD /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE901EEB2313005060CD /* TimerViewController.swift */; };
 		50BCCE931EEB2313005060CD /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE901EEB2313005060CD /* TimerViewController.swift */; };
+		50BCCE951EEB2F42005060CD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE941EEB2F42005060CD /* TabBarController.swift */; };
+		50BCCE961EEB2F42005060CD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE941EEB2F42005060CD /* TabBarController.swift */; };
+		50BCCE971EEB2F42005060CD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BCCE941EEB2F42005060CD /* TabBarController.swift */; };
 		50C698481EE88E1D0017B654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C698471EE88E1D0017B654 /* AppDelegate.swift */; };
 		50C698511EE88E290017B654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C698501EE88E290017B654 /* Assets.xcassets */; };
 		50C698541EE88E290017B654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C698521EE88E290017B654 /* LaunchScreen.storyboard */; };
@@ -60,6 +63,7 @@
 		50BCCE841EEA3CE6005060CD /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		50BCCE8C1EEB1F56005060CD /* alarm-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alarm-clock.png"; path = "../alarm-clock.png"; sourceTree = "<group>"; };
 		50BCCE901EEB2313005060CD /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		50BCCE941EEB2F42005060CD /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		50C698441EE88E1C0017B654 /* QuickToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C698471EE88E1D0017B654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50C698501EE88E290017B654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,6 +136,7 @@
 				50BCCE841EEA3CE6005060CD /* add.png */,
 				50BCCE8C1EEB1F56005060CD /* alarm-clock.png */,
 				50BCCE901EEB2313005060CD /* TimerViewController.swift */,
+				50BCCE941EEB2F42005060CD /* TabBarController.swift */,
 			);
 			path = QuickToDo;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 				50BCCE911EEB2313005060CD /* TimerViewController.swift in Sources */,
 				50BCCE711EE9F761005060CD /* ViewController.swift in Sources */,
 				50BCCE6D1EE9E6D8005060CD /* TableViewController.swift in Sources */,
+				50BCCE951EEB2F42005060CD /* TabBarController.swift in Sources */,
 				50C698481EE88E1D0017B654 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +322,7 @@
 				50BCCE921EEB2313005060CD /* TimerViewController.swift in Sources */,
 				50BCCE721EE9F761005060CD /* ViewController.swift in Sources */,
 				50C6985F1EE88E2F0017B654 /* QuickToDoTests.swift in Sources */,
+				50BCCE961EEB2F42005060CD /* TabBarController.swift in Sources */,
 				50BCCE6E1EE9E6D8005060CD /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +334,7 @@
 				50BCCE931EEB2313005060CD /* TimerViewController.swift in Sources */,
 				50BCCE731EE9F761005060CD /* ViewController.swift in Sources */,
 				50C6986A1EE88E300017B654 /* QuickToDoUITests.swift in Sources */,
+				50BCCE971EEB2F42005060CD /* TabBarController.swift in Sources */,
 				50BCCE6F1EE9E6D8005060CD /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
