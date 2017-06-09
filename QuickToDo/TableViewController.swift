@@ -22,7 +22,9 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
+        //Background Color
+        
+        self.tableView.backgroundColor = UIColor.yellow
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -52,7 +54,7 @@ class TableViewController: UITableViewController {
 
         // Configure the cell...
         
-        cell.textLabel?.font = UIFont(name: "Noteworthy Bold", size: 20)
+        cell.textLabel?.font = UIFont(name: "Noteworthy", size: 20)
         cell.textLabel?.text = items[indexPath.row]
         
         return cell
@@ -68,6 +70,11 @@ class TableViewController: UITableViewController {
             
             UserDefaults.standard.set(items, forKey: "items")
         }
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        
+        cell.backgroundColor = UIColor.clear
     }
 
 } // End Class
